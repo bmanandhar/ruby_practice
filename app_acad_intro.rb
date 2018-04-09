@@ -48,3 +48,7 @@ def gcd(int_one, int_two)
 end
 
 #Above codes has been pushed to git repo
+#last n digits of the first argument
+def last_n_digits(num, n)
+    return num % 10 ** n 
+end
